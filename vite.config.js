@@ -9,5 +9,10 @@ export default defineConfig({
       external: ['react-icons'],
     },
   },
+  build: {
+    rollupOptions: {
+        external: ['framer-motion'],
+      },
+    },
   base: "/react-portfolio/",
 })
