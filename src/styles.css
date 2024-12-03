@@ -1,0 +1,10 @@
+/* In styles.css */
+.toggle-btn {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .toggle-btn:hover {
+    background-color: #777777;
+    transform: scale(1.05);
+  }
+  
