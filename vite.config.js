@@ -8,5 +8,6 @@ export default defineConfig({
   rollupOptions: {
       external: ['react-icons'],
     },
+  },
   base: "/react-portfolio/",
 })
