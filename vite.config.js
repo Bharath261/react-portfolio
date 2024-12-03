@@ -10,9 +10,4 @@ export default defineConfig({
     },
   },
   base: "/react-portfolio/",
-  build: {
-    rollupOptions: {
-      external: ['react-icons'],
-    },
-  },
 })
